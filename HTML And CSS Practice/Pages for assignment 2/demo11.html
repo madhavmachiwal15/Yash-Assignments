@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 11</title>
+        <style>
+            .dropbutton{
+                background-color: skyblue;
+                color: black;
+                padding: 20px;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: red;
+                min-width: 200px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 20px 12px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: #ebe0e0;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color :rgb(41, 226, 47)8e41;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbutton">Dropdown</button>
+            <div class="dropdown-content">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+            <a href="#">Option 3</a>
+            </div>
+          </div>
+
+    </body>
+</html>
