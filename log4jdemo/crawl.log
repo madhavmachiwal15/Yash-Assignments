@@ -1,0 +1,14 @@
+INFO	2021-08-02 16:20:08,614	2	com.yash.log4jdemo.LogDemo	[main]	Log for log demo1
+WARN	2021-08-02 16:20:08,617	5	com.yash.log4jdemo.LogDemo	[main]	Warning message
+ERROR	2021-08-02 16:20:08,618	6	com.yash.log4jdemo.LogDemo	[main]	Error Message
+DEBUG	2021-08-02 16:20:08,618	6	com.yash.log4jdemo.LogDemo	[main]	Debug Message
+FATAL	2021-08-02 16:20:08,618	6	com.yash.log4jdemo.LogDemo	[main]	Fatal Message
+ERROR	2021-08-02 16:20:08,618	6	com.yash.log4jdemo.LogDemo	[main]	Division is: java.lang.ArithmeticException: / by zero
+INFO	2021-08-02 16:20:08,619	7	com.yash.log4jdemo.LogDemo	[main]	Addition is: 30
+INFO	2021-08-11 12:09:51,832	0	com.yash.log4jdemo.LogDemo	[main]	Log for log demo1
+WARN	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Warning message
+ERROR	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Error Message
+DEBUG	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Debug Message
+FATAL	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Fatal Message
+ERROR	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Division is: java.lang.ArithmeticException: / by zero
+INFO	2021-08-11 12:09:51,836	4	com.yash.log4jdemo.LogDemo	[main]	Addition is: 30
