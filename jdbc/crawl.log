@@ -1,0 +1,19 @@
+INFO	2021-08-11 12:25:58,912	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 12:26:44,501	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 12:26:44,505	4	com.yash.jdbc.JdbcExample	[main]	101 Yash Tech US
+INFO	2021-08-11 12:26:44,505	4	com.yash.jdbc.JdbcExample	[main]	102 Lenovo India
+INFO	2021-08-11 12:26:44,505	4	com.yash.jdbc.JdbcExample	[main]	103 Infosys India
+INFO	2021-08-11 12:26:44,505	4	com.yash.jdbc.JdbcExample	[main]	403 TCS England
+INFO	2021-08-11 12:26:44,505	4	com.yash.jdbc.JdbcExample	[main]	502 Tech Mahindra India
+INFO	2021-08-11 14:03:30,271	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 14:03:30,277	6	com.yash.jdbc.JdbcExample	[main]	101 Yash Tech US
+INFO	2021-08-11 14:03:30,277	6	com.yash.jdbc.JdbcExample	[main]	102 Lenovo India
+INFO	2021-08-11 14:03:30,277	6	com.yash.jdbc.JdbcExample	[main]	103 Infosys India
+INFO	2021-08-11 14:03:30,277	6	com.yash.jdbc.JdbcExample	[main]	403 TCS England
+INFO	2021-08-11 14:03:30,277	6	com.yash.jdbc.JdbcExample	[main]	502 Tech Mahindra India
+INFO	2021-08-11 17:42:44,181	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 17:42:44,190	9	com.yash.jdbc.JdbcExample	[main]	Prepare statement executed!!
+INFO	2021-08-11 17:51:47,604	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 17:51:47,619	15	com.yash.jdbc.JdbcExample	[main]	Prepare statement executed!!
+INFO	2021-08-11 17:55:19,132	0	com.yash.jdbc.JdbcExample	[main]	DataBase Connected
+INFO	2021-08-11 17:55:19,151	19	com.yash.jdbc.JdbcExample	[main]	Prepare statement executed!!
