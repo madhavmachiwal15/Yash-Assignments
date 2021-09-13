@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room Booking</title>
+        <style>
+            #header{
+                background-color: coral;
+                text-align: center;
+                padding: 20px;
+            }
+            #section{
+                background-color: lightskyblue;
+                padding: 1%;
+            }
+            .dateto, .datefrom, .purpose, .people, .employeeid, .phone, .room, .duration{
+                padding-left: 120px;
+            }
+            td{
+                padding: 20px;
+            }
+            button{
+                background-color: coral;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: rgb(216, 54, 0);
+            }
+            footer{
+                background-color: gray;
+                color: white;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="header">
+           <h1>Room Booking System</h1> 
+        </header>
+        <section id="section">
+            <form class="myform">
+                <table style="width: 100%;">
+                    <tr>
+                        <td><label for="date" class="datefrom">From Date</label></td>
+                        <td><input id="dateFrom" type="date" ></td>
+                        <td><label for="date" class="dateto">To Date</label></td>
+                        <td><input id="dateTo" type="date" >
+                    </tr>
+                    <tr>
+                        <td><label for="purpose" class="purpose">Purpose</label></td>
+                        <td><input id="purpose_" type="text"></td>
+                        <td><label for="people" class="people">Number of People</label></td>
+                        <td><input type="text" name="people" id="people_"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone" class="phone">Phone Number</label></td>
+                        <td><input type="tel" id="phone_"></td>
+                        <td><label for="room" class="room">Room Number</label></td>
+                        <td><select name="room_number" id="room_">
+                            <option value="101">101</option>
+                            <option value="102">102</option>
+                            <option value="103">103</option>
+                            <option value="104">104</option>
+                            <option value="105">105</option>
+                            <option value="106">106</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="employee" class="employeeid">Employee Id</label></td>
+                        <td><input type="text" id="employee"></td>
+                        <td><label for="duration" class="duration">Duration</label></td>
+                        <td><input type="text" id="duration_"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><button onclick="submit()" value="Book now">Book Now</button></td>
+                    </tr> 
+                </table>
+            </form>
+        </section>
+        <section id="display" style="background-color: lightskyblue; padding: 60px; color: black;"></section>
+        <footer>
+            <p style="text-align: center;">&copy; Room Booking System-2021</p>
+        </footer>
+        
+    </body>
+    <script>
+        function submit()
+        {
+            var fdate = document.getElementById("dateFrom").value;
+            document.write("Date from: "+fdate);
+            var tdate = document.getElementById("dateTo").value;
+            document.write("Date to : "+tdate);
+            var purpose = document.getElementById("purpose_").value;
+            document.write("Purpose: "+purpose);
+      //      console.log(purpose);
+            var people = document.getElementById('people_').value;
+            document.write("People: "+people);
+            var phone = document.getElementById('phone_').value;
+            document.write("Phone: "+phone);
+            var room = document.getElementById('room_').value;
+            document.write("Room number: "+room);
+            var employee = document.getElementById('employee').value;
+            document.write("Employee id: "+employee);
+            var duration = document.getElementById('duration_').value;
+            document.write("Duration: "+duration);
+      //      var display = document.getElementById("display");
+            
+
+
+        }
+    </script>
+</html>

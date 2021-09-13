@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 13</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("h3").css("color", "red").slideToggle(2000);
+                    $("h3").css("background-color", "skyblue");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h3>This is an h3 tag</h3>
+        <button>Click here</button>
+    </body>
+</html>

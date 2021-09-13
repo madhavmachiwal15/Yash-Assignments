@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>    
+    <head>  
+        <title>Demo 17</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <style>
+        .h1{
+            background-color: tomato;
+            display: inline;
+        }
+    </style>   
+    <script>    
+        $(document).ready(function(){    
+            $(".h1").mouseleave(function(){    
+                $("div" ).text("Mouse leave").show().fadeOut(6000);   
+                $(".h1").css("background-color", "skyblue");
+            });  
+        });    
+    </script>    
+    </head>    
+    <body>    
+        <h1 class="h1">Enter this heading.</h1>   
+        <div></div>   
+    </body>    
+</html> 

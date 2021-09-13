@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+        <h2 id="demo1"></h2>
+        <h3 id="demo2"></h3>
+        
+        <script>
+            const arr = ["Madhav", 102, 44000.09];
+            document.getElementById("demo1").innerHTML = arr;
+
+            const person = {id:1, name:"Madhav", age:21};
+            document.getElementById("demo2").innerHTML = person.id+" "+person.name+" "+person.age;    
+
+            var item = "mango";
+            switch(item)
+            {
+                case "mango":
+                    console.log("Fruit");
+                    break;
+                case "mobile":
+                    console.log("Electronic Item");  
+                    break;
+                case "potato":      
+                    console.log("Vegetable");
+                    break;
+                default:
+                    console.log("Nothing!! in above list");  
+                    break; 
+            }
+            var a= 9;
+            if(a>=9)
+                console.log("Valid");
+            else
+                console.log("Invalid");
+        </script>
+    </body>
+</html>

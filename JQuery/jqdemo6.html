@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Demo 6</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("li:even").addClass("red");
+            });
+        </script>
+        <style>
+            .red{
+                background-color: red;
+                color: white;
+                display:table;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+            <li>Element 4</li>
+        </ul>
+    </body>
+</html>

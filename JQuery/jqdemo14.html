@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 14</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".btn1").click(function(){
+                    alert("Text: "+ $("h2").text());
+                });
+                $(".btn2").click(function(){
+                    alert("HTML: "+ $("h2").html());
+                });
+                $(".btn3").click(function(){
+                    alert("Value: "+ $("#name").val()); 
+                });
+                $(".btn4").click(function(){
+                    alert($("a").attr("href"));
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h2>This is an H2 <i>tag</i></h2>
+        <button class="btn1">Show text</button>
+        <button class="btn2">Show HTML</button>
+        <br><br>
+        <label for="Name">Name: </label>
+        <input type="text" id="name" value="Madhav">
+        <button class="btn3">Show Value</button>
+        <button class="btn4">Show href value</button>
+        <a href="https://www.w3schools.com/jquERy/jquery_dom_get.asp">Click hare</a>
+    </body>
+</html>

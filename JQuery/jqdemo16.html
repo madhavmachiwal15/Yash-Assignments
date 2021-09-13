@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 16</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#div").click(function(){
+                    var text ="";
+                    text += "Height of div is: "+$("#div").height()+"<br>";
+                    text += "Width Of div is: "+$("#div").width();
+                    $("#div").html(text);
+                });
+            });
+        </script>
+        <style>
+            #div{
+                width: 200px;
+                height: 400px;
+                border: 2px solid skyblue;
+                background-color: tomato;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div"></div>
+    </body>
+</html>

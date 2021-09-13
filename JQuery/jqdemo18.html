@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>    
+    <head>  
+        <title>Demo 18</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <style>
+        .h1{
+            background-color: tomato;
+            display: inline;
+        }
+    </style>   
+    <script>    
+        $(document).ready(function(){    
+            $(".h1").mouseover(function(){    
+                $(".h1").css("background-color", "skyblue");
+                $(".h1").css("color", "red"); 
+            });  
+
+            $(".h1").mouseout(function(){
+                $(".h1").css("background-color", "tomato");
+                $(".h1").css("color", "black");
+            });
+        });    
+    </script>    
+    </head>    
+    <body>    
+        <h1 class="h1">Enter this heading.</h1>      
+    </body>    
+</html> 

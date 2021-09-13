@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 12</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#flip").click(function(){
+                    $("#panel").slideToggle(4000);
+                });
+            });
+            $(document).ready(function(){
+                $("#smt").click(function(){
+                    document.write("Name: "+ $("#txt").val()+"<br>"+
+                    " Email Id: "+ $("#eml").val()+"<br>"+
+                    " Password: "+$(".pwd").val()+"<br>"+
+                    " Confirm Password: "+$(".pwd").val()); 
+
+            /*       var a ="";
+                    a += "Name: "+$("#div").height()+"<br>"+
+                    " Email Id: "+ $("#eml").val()+"<br>"+
+                    " Password: "+$(".pwd").val()+"<br>"+
+                    " Confirm Password: "+$(".pwd").val();
+                    $("#mydiv").html(a);    */
+                });
+            });
+        </script>
+        <style>
+            header{
+                background-color: rgb(228, 177, 10);
+                text-align: center;
+                padding: 20px;
+            }
+            input[type=text], [type=email], [type=password]{
+                width: 80%;
+                padding: 10px;
+            }
+            #flip{
+                background-image: url('./images/theme.jpg');
+                color: white;
+                background-size: 100%;
+                padding: 20px;
+                text-align: center;
+                font-size: 20px;
+            }
+            #panel{
+                background-image: url('./images/theme.jpg');
+                background-size: 100%;
+                display: none;
+            }
+            label{
+                color: white;
+            }
+            input[type=submit]{
+                width: 80%;
+                background-color: rgb(24, 180, 24);
+                background-size: 100%;
+                padding: 10px;
+                color: white;
+                font-size: 20px;
+                border: none;
+            }      
+        </style>
+    </head>
+    <body>
+        <header>
+           <h1>Form Demo</h1> 
+        </header>
+        <section id="flip">Click here to toggle form</section>
+        <section id="panel" style="background-color: skyblue;">
+            <form action="jqdemo12.html" style="margin-left: 10px;">
+                <br><br><br>
+                <label for="name">Name: </label><br><br>
+                <input type="text" placeholder="Enter Your Name" id="txt">
+                <br><br><br>
+                <label for="email">Email: </label><br><br>
+                <input type="email" placeholder="Enter Your Email Id" id="eml">
+                <br><br><br>
+                <label for="password">Password: </label><br><br>
+                <input type="password" placeholder="Enter Your Password" class="pwd">
+                <br><br><br>
+                <label for="password">Confirm Password: </label><br><br>
+                <input type="password" placeholder="Confirm Your Password" class="pwd">
+                <br><br><br>
+                <input type="submit" value="Submit" id="smt">
+                <br><br>
+            </form>
+        </section>
+        <footer >
+            <h4 style="text-align: center; padding: 10px; background-color: gray; color: whitesmoke; margin: 0%;">&copy; Form Demo-2021</h4>
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery animation Demo 10</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("div").click(function(){
+                    $("div").animate({
+                        height: '100px',
+                        width: '100px',
+                        opacity: '0.6'
+                    });
+                });
+            });
+        </script>
+        <style>
+            div{
+                height: 150px;
+                width: 150px;
+                background-color: cornflowerblue;
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

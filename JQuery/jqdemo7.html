@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Demo 7</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".list:first").addClass("green");
+                $(".list:last").addClass("blue");
+            });
+        </script>
+        <style>
+            .green{
+                background-color: green;
+                color: white;
+            }
+            .blue{
+                background-color: blue;
+                color: whitesmoke;
+            }
+            li{
+                display:table;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+           <li class="list">List 1</li>
+           <li class="list">List 2</li>
+           <li class="list">List 3</li>
+           <li class="list">List 4</li>
+           <li class="list">List 5</li>
+        </ul>
+    </body>
+</html>

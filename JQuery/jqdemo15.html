@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 15</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".btn1").click(function(){
+                    $("#name").val("Madhav");
+                });
+                $(".btn2").click(function(){
+                    $("#p1").html("<b><i>Madhav</i></b>");
+                });
+                $(".btn3").click(function(){
+                    $("#p2").text("Madhav");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="p1">This is a paragraph 1</p>
+        <p id="p2">This is a paragraph 2</p>
+        <p>Name: <input type="text" id="name"></p>
+        <button class="btn1">Set Value</button>
+        <button class="btn2">Set HTML</button>
+        <button class="btn3">Set Text</button>
+    </body>
+</html>

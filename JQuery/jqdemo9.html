@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery Demo 9</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("h3:not(h3.h)").fadeOut(2000);
+            });
+            $(document).ready(function(){
+                $("p:contains('4')").fadeOut(2000);
+            });
+        </script>
+    </head>
+    <body>
+        <h3>H3 tag 1</h3>
+        <h3>H3 tag 2</h3>
+        <h3>H3 tag 3</h3>
+        <h3>H3 tag 4</h3>
+        <h3 class="h">H3 tag 5</h3>
+        <br><br><br>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </body>
+</html>

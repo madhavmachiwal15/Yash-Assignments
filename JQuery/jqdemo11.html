@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery animation Demo 11</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+           $(document).ready(function(){
+                $("div").click(function(){
+                    var d = $("div")
+                    d.animate({
+                        height: '300px',
+                        opacity:'0.8'
+                    }, "slow");
+                    d.animate({
+                        width: '300px',
+                        opacity:'0.8'
+                    }, "fast");
+                    d.animate({
+                        height: '200px',
+                        opacity:'0.4'
+                    }, "slow");
+                    d.animate({
+                        width: '200px',
+                        opacity:'0.8'
+                    }, "fast");
+                });
+           });
+        </script>
+        <style>
+            div{
+                height: 150px;
+                width: 150px;
+                background-color: rgb(2, 80, 224);
+                border: 2px solid rgb(11, 185, 25);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

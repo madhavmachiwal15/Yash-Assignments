@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scope</title>
+    </head>
+    <body>
+        <script>
+            var a =1;
+            console.log(a);
+
+            function demo()
+            {
+                var b = 2;
+                console.log(b);
+            }
+            demo();
+            console.log(b);
+            console.log(a);
+            var b;
+        </script>
+    </body>
+</html>
