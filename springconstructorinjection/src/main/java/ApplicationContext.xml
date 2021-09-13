@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="EmployeeBean" class="com.yash.springconstructorinjection.model.Employee">
+		<constructor-arg index="0" value="101"></constructor-arg>
+		<constructor-arg index="1" ref="EmployeeNameBean"></constructor-arg>
+		<constructor-arg index="2" value="25000.00"></constructor-arg>
+	</bean>
+	<bean id="EmployeeNameBean" class="com.yash.springconstructorinjection.model.EmployeeName">
+		<property name="firstName" value="Madhav"></property>
+		<property name="lastName" value="Machiwal"></property>
+	</bean>
+</beans>

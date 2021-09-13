@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="Student" class="com.yash.springautowiring.model.Student" autowire="byName">
+	
+	</bean>
+	
+	<bean id="studentName" class="com.yash.springautowiring.model.StudentDetails">
+		<property name="firstName" value="Madhav"></property>
+		<property name="lastName" value="Machiwal"></property>
+	</bean>
+	
+	<bean id="studentSubject" class="com.yash.springautowiring.model.StudentDetails">
+		<property name="firstSubject" value="Science"></property>
+		<property name="secondSubject" value="Mathematics"></property>
+		<property name="thirdSubject" value="English"></property>
+		<property name="fourthSubject" value="Computers"></property>
+	</bean>
+</beans>	
