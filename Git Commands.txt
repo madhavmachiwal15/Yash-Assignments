@@ -1,0 +1,13 @@
+$ git init -------initialize local git repository
+$ git add <file>---------------Add files to index
+$ git commit------------commit changes in index
+$ git push-------------Push to remote repository
+$ git pull-------------pull latest from remote repository
+$ git clone-------------create clone repository into new directory	
+$ git--version-------version of git
+$ touch <file name --- index.html>---------create file
+$ git status-----------to check the status
+$ git add -A---------------to add the file
+$ git commit -m"<any message>"--------git commit message
+$ git config --global user.name"<user name>"
+$ git config --global user.email<email id>
